@@ -21,5 +21,11 @@ namespace assigment1
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            double r1 = double.Parse(textBox2.Text);
+            double r2 = double.Parse(textBox1.Text);
+        }
     }
 }
