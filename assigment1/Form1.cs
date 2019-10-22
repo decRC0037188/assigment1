@@ -26,7 +26,7 @@ namespace assigment1
         {
             double r1 = double.Parse(textBox2.Text);
             double r2 = double.Parse(textBox1.Text);
-
+            double r3 = double.Parse(textBox3.Text);
             double RT = 1.0 / (1.0 / r1 + 1.0 / r2);
             label1.Text = "RT = " + RT;
             //comment
@@ -34,7 +34,11 @@ namespace assigment1
 
         private void Button2_Click(object sender, EventArgs e)
         {
-
+            double r1 = double.Parse(textBox4.Text);
+            double r2 = double.Parse(textBox5.Text);
+            double r3 = double.Parse(textBox6.Text);
+            double RT = r1 + r2 + r3;
+            label1.Text = "RT = " + RT;
         }
     }
 }
