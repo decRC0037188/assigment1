@@ -29,6 +29,7 @@ namespace assigment1
 
             double RT = 1.0 / (1.0 / r1 + 1.0 / r2);
             label1.Text = "RT = " + RT;
+            //comment
         }
 
         private void Button2_Click(object sender, EventArgs e)
